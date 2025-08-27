@@ -1,8 +1,6 @@
-torch
-torchvision
-transformers
-scikit-learn
-opencv-python
-flask
+Flask
+Flask-Cors
+requests
+googletrans
 python-dotenv
-google-genai
+gunicorn
