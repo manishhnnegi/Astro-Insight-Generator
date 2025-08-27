@@ -82,7 +82,7 @@ Astro-Insight-Generator/
 
 ---
 
-## 📂 Supported Languages in goole translator
+## 📂 Supported Languages for astro insights generation.
 
 ```
 
@@ -109,7 +109,7 @@ Astro-Insight-Generator/
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/<your-username>/Astro-Insight-Generator.git
+git https://github.com/manishhnnegi/Astro-Insight-Generator.git
 cd Astro-Insight-Generator
 ```
 
@@ -162,11 +162,11 @@ Send a POST request with JSON payload:
 curl -X POST http://127.0.0.1:8000/predict \
 -H "Content-Type: application/json" \
 -d '{
-    "name": "Ritika",
+    "name": "Rakesh",
     "birth_date": "1995-08-20",
-    "birth_time": "14:30",
+    "birth_time": "03:30",
     "birth_place": "Jaipur, India",
-    "language": "en"
+    "language": "Hindi"
 }'
 ```
 
