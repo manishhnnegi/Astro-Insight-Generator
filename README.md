@@ -161,13 +161,8 @@ Send a POST request with JSON payload:
 ```bash
 curl -X POST http://127.0.0.1:8000/predict \
 -H "Content-Type: application/json" \
--d '{
-    "name": "Rakesh",
-    "birth_date": "1995-08-20",
-    "birth_time": "03:30",
-    "birth_place": "Jaipur, India",
-    "language": "Hindi"
-}'
+-d "{\"name\":\"Ganesh\",\"birth_date\":\"1999-08-20\",\"birth_time\":\"11:30\",\"birth_place\":\"Delhi, India\",\"language\":\"Hindi\"}"
+
 ```
 
 
@@ -180,9 +175,7 @@ Once the server is running (`python app.py`), you can test the `/predict` endpoi
 ### Using `curl`
 
 ```bash
-curl -X POST http://127.0.0.1:8000/predict \
--H "Content-Type: application/json" \
--d "{\"name\":\"Kritika\",\"birth_date\":\"1995-08-20\",\"birth_time\":\"14:30\",\"birth_place\":\"Jaipur, India\",\"language\":\"Hindi\"}"
+curl -X POST http://127.0.0.1:8000/predict -H "Content-Type: application/json" -d "{\"name\":\"ramu\",\"birth_date\":\"1995-08-20\",\"birth_time\":\"14:30\",\"birth_place\":\"Jaipur, India\",\"language\":\"Hindi\"}"
 
 ```
 
